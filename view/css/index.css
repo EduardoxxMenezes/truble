@@ -1,0 +1,167 @@
+* {
+   background-color: #92ccb6;
+   margin: 0px;
+   font-family: Arial, sans-serif;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.logo{
+    width: 20%;
+   background-image: url(/view/img/oldWomen.jpeg);
+}
+
+.colum{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-image: url(/view/img/oldWomen.jpeg);
+   background-size: 1%;
+}
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+
+a {
+   display: inline-block;
+   margin: 0.7vh 4vw;
+   font-family: "Cal Sans", sans-serif;
+   font-weight: bold;
+   font-style: normal;
+   color: rgb(0, 0, 0);
+   background-color: rgb(226, 197, 157);
+   padding: 8px 10px; 
+   border-radius: 10px;
+   text-align: center;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+
+
+table {
+   margin: 0 auto;
+   border-collapse: collapse;
+   background-image: url(WhatsApp\ Image\ 2025-04-28\ at\ 08.33.23.jpeg);
+   background-repeat: repeat;
+   background-size: 1vh, 1vw;
+   width: 100%;
+   height: 2vh;
+   padding-top: 3%;
+   padding-bottom: 3%;
+
+}
+
+
+.huh{
+   margin: -5%;
+   padding: -5%;
+   width: 20%;
+   height: auto;
+}
+
+
+.kk {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   padding: 20px;
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+
+.grid {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+   flex-wrap: wrap;
+   position: absolute;
+   width: 80vw;
+   height: 80vh;
+   padding-top: 20vh;
+   
+ 
+background: #38824C;
+opacity: 0.62;
+border-radius: 19px;
+}
+
+.photo {
+   position: relative;
+   width: 280px;
+   height: 280px;
+   overflow: hidden;
+   transition: width 0.4s ease;
+}
+
+.img-wrapper {
+   display: flex;
+   width: 100%;
+   height: 100%;
+   transition: width 0.4s ease;
+   position: relative;
+}
+
+.img {
+   height: 100%;
+   width: 280px;
+   object-fit: cover;
+   transition: transform 0.4s ease;
+}
+
+.desc {
+   background-color: rgba(0, 0, 0, 0.6);
+   color: rgb(155, 201, 151);
+   padding: 10px;
+   font-size: 16px;
+   width: 220px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   transition: opacity 0.4s ease;
+   background-image: url(/view/img/flowerPotGirl.jpeg);
+   background-repeat: no-repeat;
+   opacity: 30%;
+}
+
+.photo:hover {
+   width: 500px;
+}
+
+.photo:hover .img {
+   transform: scale(1.05);
+}
+
+.photo:hover .desc {
+   opacity: 1;
+}
+
+
+p {
+   color: aliceblue;
+   font-size: 6vw;
+   margin: 0;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   padding-top: 4vh;
+}
+
+.botao{
+   background-color: rgb(51, 143, 89);
+   margin-bottom: 2%;
+}
+
