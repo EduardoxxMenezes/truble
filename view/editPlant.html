@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editor de Plantas</title>
+    <link rel="stylesheet" href="/view/css/cadastro.css">
+</head>
+<body>
+    <header>
+        <div class="coluna">
+            <img class="foto" src="/view/img/logoPolant.png">
+        </div>
+    </header>
+
+    <div class="container" style="background-color: antiquewhite;">
+        <h2>HERBÁRIO <br><span>G.E.L.L.H.M</span></h2>
+        <p>MODO EDIÇÃO</p>
+
+        <form id="plant-form">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="nome-cientifico">Nome Científico:</label>
+            <input type="text" id="nome-cientifico" name="nome-cientifico">
+
+            <label for="descricao">alterar Descrição:</label>
+            <textarea id="descricao" name="descricao"></textarea>
+
+            <label>Escolha uma nova foto da Planta:</label>
+            <div class="drop-zone" id="dropZone">
+                <p id="dropZoneText"><b>Arraste e solte</b> uma imagem aqui ou <b>clique para selecionar</b></p>
+                <input type="file" id="fileInput" accept="image/*" hidden>
+            </div>
+
+            <div class="buttons">
+                <button id="submit" type="submit">Salvar Planta</button>
+                <button type="button" onclick="abrirLista()">Voltar</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="/view/js/plantConnect/editPlant.js"></script>
+</body>
+</html>
